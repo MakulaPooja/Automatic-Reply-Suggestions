@@ -1,0 +1,15 @@
+Speech Act			Number of Instances			Occurance
+Statement Non-Opinion		618					33.05%
+Wh Question					362					19.36%
+Yes-No Question				282					15.08%
+Statement Opinion			204					10.91%
+Other						116					6.2%
+Thanking					78					4.17%
+Action Directive			74					3.96%
+Yes Answers					65					3.48%
+Response Acknowledgement	37					1.98%
+Appreciation				22					1.18%
+Apology						12					0.64%
+
+Total number of speech acts used	11
+Total number of lines in the corpus	1870

@@ -1,0 +1,61 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     Features
+Instances:    2779
+Attributes:   363
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 9 random features.
+Out of bag error: 0.3005
+
+
+
+Time taken to build model: 21.38 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1934               69.5934 %
+Incorrectly Classified Instances       845               30.4066 %
+Kappa statistic                          0.5954
+Mean absolute error                      0.083 
+Root mean squared error                  0.2   
+Relative absolute error                 57.4595 %
+Root relative squared error             74.4251 %
+Total Number of Instances             2779     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.891     0.28       0.651     0.891     0.753      0.881    A
+                 0.219     0.025      0.47      0.219     0.299      0.867    C
+                 0.203     0.002      0.722     0.203     0.317      0.871    F
+                 0.886     0.028      0.842     0.886     0.863      0.976    G
+                 0.124     0.021      0.179     0.124     0.146      0.779    I
+                 0.894     0.015      0.928     0.894     0.911      0.987    L
+                 0.019     0.004      0.077     0.019     0.03       0.766    N
+                 0.163     0.019      0.324     0.163     0.217      0.777    Q
+                 0.242     0.016      0.358     0.242     0.289      0.878    V
+                 0.282     0.001      0.846     0.282     0.423      0.992    AP
+                 0.76      0.009      0.76      0.76      0.76       0.979    AQ
+Weighted Avg.    0.696     0.115      0.665     0.696     0.662      0.906
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+ 916  34   3   3  19   3   7  19  22   2   0 |   a = A
+ 169  55   2   1   6   1   2   3   3   0   9 |   b = C
+  32   9  13   2   1   0   0   5   1   0   1 |   c = F
+  10   1   0 351   0  25   0   4   5   0   0 |   d = G
+  52  10   0   0  12   1   2  10   3   0   7 |   e = I
+   5   0   0  48   0 448   0   0   0   0   0 |   f = L
+  28   1   0   1   9   1   1   7   1   0   4 |   g = N
+ 100   1   0   2  10   2   1  24   6   0   1 |   h = Q
+  60   1   0   7   3   2   0   0  24   0   2 |   i = V
+  25   1   0   1   0   0   0   0   0  11   1 |   j = AP
+   9   4   0   1   7   0   0   2   2   0  79 |   k = AQ
+

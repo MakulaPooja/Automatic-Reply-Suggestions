@@ -1,0 +1,11 @@
+sd	Statement Non-Opinion
+sv	Statement Opinion
+qy	Yes-No Question
+bk	Response Acknowledgement
+fo_o_fw_by_bc	Other
+ny	Yes Answers
+ft	Thanking
+fa	Apology
+qw	Wh Question
+ba	Appreciation
+ad	Action Directive
